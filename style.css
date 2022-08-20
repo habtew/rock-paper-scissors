@@ -1,0 +1,42 @@
+.labels #playerLabel{
+    border-radius: 9px;
+    font-weight: bold;
+    text-align: center;
+}
+.labels #compLabel{
+    border-radius: 9px;
+    font-weight: bold;
+    text-align: center;
+}
+#playerScore{
+    border: 1px solid blue;
+    height: 70px;
+    border-radius: 15px;
+    text-align: center;
+    text-justify: center;
+}
+#computerScore{
+    border: 1px solid blue;
+    height: 70px;
+    border-radius: 15px;
+    text-align: center;
+    text-justify: center;
+}
+#resultsLabel{
+    border: 1px solid blue;
+    text-align: center;
+    font-weight: bold;
+    height: 70px;
+    text-align: center;
+    margin-top:10px;
+    border-radius: 15px;
+    font-size: 25px;
+}
+#roundResults{
+    border: 1px solid blue;
+    height: 70px;
+    text-align: center;
+    margin-top:10px;
+    border-radius: 15px;
+    font-size: 25px;
+}

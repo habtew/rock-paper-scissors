@@ -1,13 +1,69 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./script.js"></script>
-    <title>rock paper scissors</title>
+    <meta charset="utf-8">
+    <title>Rock Paper Scissors</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     
+  <div class="container">
+    <div class="row">
+        <header class="bg-dark text-light text-center">
+            <h1>Rock Paper Scissors</h1>
+        </header>
+    </div>
+    <div class="row">
+        <div class="col-12 text-center">
+            <h2>Choose Your Weapon</h2>
+        </div>
+        <div class="col-12 text-center">
+            <h3>First To 5 Wins!</h3>
+        </div>
+    </div>
+    <div class="row pb-3">
+        <div class="button">
+            <button id="0" class="btn btn-primary">Rock</button>
+            <button id="1" class="btn btn-secondary">Paper</button>
+            <button id="2" class="btn btn-success">Scissors</button>
+          </div>
+          
+    </div>
+
+    <div class="row pb-3">
+        <div class="col-12 col-sm-6 labels pb-3" id="playerlabel">
+            <span id="playerLabel">Player scores</span>
+        </div>
+        <div class="col-12 col-sm-6 labels pb-3">
+            <span id="compLabel">Computer scores</span>
+        </div>
+        <div class="scores col-12 col-sm-6">
+            <div id="playerScore"></div>
+        </div>
+        <div class="scores col-12 col-sm-6">
+            <div id="computerScore"></div>
+        </div>
+    </div>
+
+    <div class="row pb-3 pt-3">
+        <div class="col-12 col-sm-3" id="resultsLabel">
+            Results
+        </div>
+        <div id="roundResults" class="col-12 col-sm-8 offset-sm-1">
+
+        </div>
+    </div>
+    <div class="row pt-3">
+        <div class="col-12">
+            <button id="reset" class="btn btn-danger">Play Again!</button>
+        </div>
+    </div>
+  </div>
 </body>
+<script src ="./script2.js"></script>  
 </html>
+
