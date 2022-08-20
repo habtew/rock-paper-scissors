@@ -33,7 +33,7 @@ function playRound (playerSelection, computerSelection) {
       Results.textContent = "Tie!"
     }else if (playerWinCombo.includes(roundWinCombo)) {
         playerPoints.textContent = ++playerScore
-        Results.textContent = `You win! ${playerSelection.value} beats ${computerSelection.choice}`;
+        Results.textContent = `You win! ${playerChoice} beats ${computerSelection.choice}`;
     }else {
         computerPoints.textContent = ++compScore
         Results.textContent = `You lose! ${computerSelection.choice} beats ${playerChoice}`;
