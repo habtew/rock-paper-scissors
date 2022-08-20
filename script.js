@@ -9,8 +9,6 @@ resetBtn.addEventListener('click',() => location.reload());
 let playerScore = 0;
 let compScore = 0;
 
-//refresh page for new game
-
   
 buttons.forEach(button => { button.addEventListener('click', getPlayerChoice) });
 
